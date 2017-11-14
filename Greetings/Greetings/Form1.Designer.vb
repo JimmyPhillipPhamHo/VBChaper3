@@ -32,7 +32,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(73, 54)
+        Me.Label1.Location = New System.Drawing.Point(77, 35)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(91, 13)
         Me.Label1.TabIndex = 0
@@ -40,7 +40,7 @@ Partial Class Form1
         '
         'txtUserName
         '
-        Me.txtUserName.Location = New System.Drawing.Point(227, 51)
+        Me.txtUserName.Location = New System.Drawing.Point(200, 35)
         Me.txtUserName.Name = "txtUserName"
         Me.txtUserName.Size = New System.Drawing.Size(114, 20)
         Me.txtUserName.TabIndex = 1
@@ -48,14 +48,14 @@ Partial Class Form1
         'lblGreeting
         '
         Me.lblGreeting.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblGreeting.Location = New System.Drawing.Point(43, 114)
+        Me.lblGreeting.Location = New System.Drawing.Point(34, 80)
         Me.lblGreeting.Name = "lblGreeting"
         Me.lblGreeting.Size = New System.Drawing.Size(347, 36)
         Me.lblGreeting.TabIndex = 2
         '
         'btnShowGreeting
         '
-        Me.btnShowGreeting.Location = New System.Drawing.Point(94, 195)
+        Me.btnShowGreeting.Location = New System.Drawing.Point(80, 154)
         Me.btnShowGreeting.Name = "btnShowGreeting"
         Me.btnShowGreeting.Size = New System.Drawing.Size(75, 34)
         Me.btnShowGreeting.TabIndex = 3
@@ -64,7 +64,7 @@ Partial Class Form1
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(227, 195)
+        Me.btnExit.Location = New System.Drawing.Point(221, 154)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 34)
         Me.btnExit.TabIndex = 4
@@ -75,7 +75,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(439, 262)
+        Me.ClientSize = New System.Drawing.Size(414, 215)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnShowGreeting)
         Me.Controls.Add(Me.lblGreeting)
