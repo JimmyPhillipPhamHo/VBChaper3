@@ -71,7 +71,7 @@ Partial Class Form1
         '
         Me.txtGallonSize.Location = New System.Drawing.Point(153, 28)
         Me.txtGallonSize.Name = "txtGallonSize"
-        Me.txtGallonSize.Size = New System.Drawing.Size(100, 20)
+        Me.txtGallonSize.Size = New System.Drawing.Size(115, 20)
         Me.txtGallonSize.TabIndex = 4
         '
         'txtMilesWithFullTank
