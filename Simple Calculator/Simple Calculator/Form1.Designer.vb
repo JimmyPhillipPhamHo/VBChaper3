@@ -42,7 +42,7 @@ Partial Class Form1
         '
         'btnPlus
         '
-        Me.btnPlus.Location = New System.Drawing.Point(123, 101)
+        Me.btnPlus.Location = New System.Drawing.Point(123, 70)
         Me.btnPlus.Name = "btnPlus"
         Me.btnPlus.Size = New System.Drawing.Size(43, 35)
         Me.btnPlus.TabIndex = 0
@@ -51,7 +51,7 @@ Partial Class Form1
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(230, 324)
+        Me.btnExit.Location = New System.Drawing.Point(200, 262)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 7
@@ -60,7 +60,7 @@ Partial Class Form1
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(66, 324)
+        Me.btnClear.Location = New System.Drawing.Point(67, 262)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(75, 23)
         Me.btnClear.TabIndex = 8
@@ -70,7 +70,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(42, 48)
+        Me.Label1.Location = New System.Drawing.Point(42, 25)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(56, 13)
         Me.Label1.TabIndex = 9
@@ -79,7 +79,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(42, 112)
+        Me.Label2.Location = New System.Drawing.Point(42, 70)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(56, 13)
         Me.Label2.TabIndex = 10
@@ -88,7 +88,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(42, 206)
+        Me.Label3.Location = New System.Drawing.Point(42, 164)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(56, 13)
         Me.Label3.TabIndex = 11
@@ -97,7 +97,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(42, 268)
+        Me.Label4.Location = New System.Drawing.Point(42, 215)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(37, 13)
         Me.Label4.TabIndex = 12
@@ -106,28 +106,28 @@ Partial Class Form1
         'lblResult
         '
         Me.lblResult.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblResult.Location = New System.Drawing.Point(127, 267)
+        Me.lblResult.Location = New System.Drawing.Point(123, 214)
         Me.lblResult.Name = "lblResult"
         Me.lblResult.Size = New System.Drawing.Size(137, 23)
         Me.lblResult.TabIndex = 13
         '
         'txtNumber2
         '
-        Me.txtNumber2.Location = New System.Drawing.Point(141, 206)
+        Me.txtNumber2.Location = New System.Drawing.Point(127, 164)
         Me.txtNumber2.Name = "txtNumber2"
         Me.txtNumber2.Size = New System.Drawing.Size(118, 20)
         Me.txtNumber2.TabIndex = 14
         '
         'txtNumber1
         '
-        Me.txtNumber1.Location = New System.Drawing.Point(141, 48)
+        Me.txtNumber1.Location = New System.Drawing.Point(123, 25)
         Me.txtNumber1.Name = "txtNumber1"
         Me.txtNumber1.Size = New System.Drawing.Size(118, 20)
         Me.txtNumber1.TabIndex = 15
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(123, 142)
+        Me.Button2.Location = New System.Drawing.Point(123, 111)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(43, 35)
         Me.Button2.TabIndex = 16
@@ -136,7 +136,7 @@ Partial Class Form1
         '
         'btnMinus
         '
-        Me.btnMinus.Location = New System.Drawing.Point(172, 101)
+        Me.btnMinus.Location = New System.Drawing.Point(172, 70)
         Me.btnMinus.Name = "btnMinus"
         Me.btnMinus.Size = New System.Drawing.Size(43, 35)
         Me.btnMinus.TabIndex = 17
@@ -145,7 +145,7 @@ Partial Class Form1
         '
         'btnExponant
         '
-        Me.btnExponant.Location = New System.Drawing.Point(172, 142)
+        Me.btnExponant.Location = New System.Drawing.Point(172, 111)
         Me.btnExponant.Name = "btnExponant"
         Me.btnExponant.Size = New System.Drawing.Size(43, 35)
         Me.btnExponant.TabIndex = 18
@@ -154,7 +154,7 @@ Partial Class Form1
         '
         'btnMultiply
         '
-        Me.btnMultiply.Location = New System.Drawing.Point(221, 101)
+        Me.btnMultiply.Location = New System.Drawing.Point(221, 70)
         Me.btnMultiply.Name = "btnMultiply"
         Me.btnMultiply.Size = New System.Drawing.Size(43, 35)
         Me.btnMultiply.TabIndex = 19
@@ -163,7 +163,7 @@ Partial Class Form1
         '
         'btnModulus
         '
-        Me.btnModulus.Location = New System.Drawing.Point(221, 142)
+        Me.btnModulus.Location = New System.Drawing.Point(221, 111)
         Me.btnModulus.Name = "btnModulus"
         Me.btnModulus.Size = New System.Drawing.Size(70, 35)
         Me.btnModulus.TabIndex = 20
@@ -174,7 +174,7 @@ Partial Class Form1
         '
         Me.lblOperation.AutoSize = True
         Me.lblOperation.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblOperation.Location = New System.Drawing.Point(40, 152)
+        Me.lblOperation.Location = New System.Drawing.Point(40, 111)
         Me.lblOperation.Name = "lblOperation"
         Me.lblOperation.Size = New System.Drawing.Size(0, 25)
         Me.lblOperation.TabIndex = 21
@@ -183,7 +183,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(373, 390)
+        Me.ClientSize = New System.Drawing.Size(318, 311)
         Me.Controls.Add(Me.lblOperation)
         Me.Controls.Add(Me.btnModulus)
         Me.Controls.Add(Me.btnMultiply)
